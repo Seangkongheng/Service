@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width:80% ;
+    margin: auto;
+}
+a{
+    color: black;
+}
+.conten{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.conten ul{
+    display: flex;
+
+}
+.conten ul li{
+    list-style-type: none;
+    margin-left: 30px;
+}
+.conten ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: rgb(63, 63, 63);
+    font-size: 1rem;
+}
+.conten ul li :hover{
+color: red;
+}
+#home{
+    font-weight: bold;
+}
+#download{
+    background-color: rgb(10, 0, 204);
+    color: rgb(250, 250, 250);
+    padding: .7rem 1.5rem;
+    border-radius: 2rem;
+}
+#download:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(92, 92, 92);
+    color: black;
+    transition: .5s;
+}
+.logo{
+font-family: sans-serif;
+font-weight: bold;
+}
+.Block-body{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.title{
+    
+}
+.tex-title{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+}
+.block-left{
+    width: 250px;
+}
+.block-left i{
+    font-size: 100px;
+    color: rgb(11, 43, 224);
+}
+.titleService {
+    font-size:1.5rem ;
+}
+.mode i{
+    font-size: 22px;
+    cursor: pointer;
+}
+.mode i :hover{
+    color: black;
+}
+.blackmode{
+    background-color: black;
+}
+.modecolor{
+    color: #ffff;
+}
